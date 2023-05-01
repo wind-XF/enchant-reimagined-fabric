@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enchantre:item/sakura_banner_pattern"
+  }
+}

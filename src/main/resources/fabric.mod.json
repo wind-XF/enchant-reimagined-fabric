@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantre",
+  "version": "${version}",
+  "name": "Enchant Reimgained",
+  "description": "A mod that created an enchanting system that fully reimagined.",
+  "authors": [
+    "windXF"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wind-XF/",
+    "sources": "https://github.com/wind-XF/enchant-reimgained",
+    "issues": "https://github.com/wind-XF/enchant-reimgained/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/enchantre/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.windmc.enchantre.enchantreClient"
+    ],
+    "main": [
+      "me.windmc.enchantre.enchantre"
+    ]
+  },
+  "mixins": [
+    "enchantre.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

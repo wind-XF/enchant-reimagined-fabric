@@ -1,0 +1,42 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"3": "enchantre:block/amethyst_copper_table/table_amethyst",
+		"particle": "enchantre:block/amethyst_copper_table/amethyst_copper_table_bottom",
+		"bottom": "enchantre:block/amethyst_copper_table/amethyst_copper_table_bottom",
+		"top": "enchantre:block/amethyst_copper_table/amethyst_exposed_copper_table_top",
+		"side": "enchantre:block/amethyst_copper_table/amethyst_exposed_copper_table_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 4, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 4, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 4, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 4, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 10, 2],
+			"to": [8, 22, 14],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [2, 10, 8],
+			"to": [14, 22, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	]
+}
