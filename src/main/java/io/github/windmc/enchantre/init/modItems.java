@@ -1,7 +1,6 @@
-package me.windmc.enchantre.init;
+package io.github.windmc.enchantre.init;
 
-import me.windmc.enchantre.enchantre;
-import me.windmc.enchantre.item.enchantrebannerpattern;
+import io.github.windmc.enchantre.enchantre;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.BannerPatternItem;
@@ -14,6 +13,7 @@ import net.minecraft.util.Rarity;
 
 
 public class modItems {
+
     public static final Item GOLDEN_STONE_TABLE_BLOCK = new BlockItem(modBlocks.GOLDEN_STONE_TABLE_BLOCK, new FabricItemSettings());
     public static final Item GOLDEN_CHISELED_DEEPSLATE_TABLE_BLOCK = new BlockItem(modBlocks.GOLDEN_CHISELED_DEEPSLATE_TABLE_BLOCK, new FabricItemSettings());
     public static final Item CRYSTAL_TABLE = new BlockItem(modBlocks.CRYSTAL_TABLE, new FabricItemSettings());

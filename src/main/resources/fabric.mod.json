@@ -17,10 +17,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.windmc.enchantre.enchantreClient"
+      "io.github.windmc.enchantre.enchantreClient"
     ],
     "main": [
-      "me.windmc.enchantre.enchantre"
+      "io.github.windmc.enchantre.enchantre"
     ]
   },
   "mixins": [

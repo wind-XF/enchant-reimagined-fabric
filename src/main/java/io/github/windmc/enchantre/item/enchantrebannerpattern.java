@@ -1,4 +1,4 @@
-package me.windmc.enchantre.item;
+package io.github.windmc.enchantre.item;
 
 import net.minecraft.block.entity.BannerPattern;
 import net.minecraft.client.item.TooltipContext;

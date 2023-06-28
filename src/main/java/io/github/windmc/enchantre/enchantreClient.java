@@ -1,6 +1,6 @@
-package me.windmc.enchantre;
+package io.github.windmc.enchantre;
 
-import me.windmc.enchantre.init.modBlocks;
+import io.github.windmc.enchantre.init.modBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.Block;

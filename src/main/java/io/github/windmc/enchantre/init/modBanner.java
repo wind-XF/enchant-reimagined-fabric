@@ -1,13 +1,10 @@
-package me.windmc.enchantre.init;
+package io.github.windmc.enchantre.init;
 
-import me.windmc.enchantre.enchantre;
+import io.github.windmc.enchantre.enchantre;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
 import net.minecraft.block.entity.BannerPattern;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 

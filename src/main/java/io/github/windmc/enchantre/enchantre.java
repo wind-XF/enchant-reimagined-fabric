@@ -1,6 +1,9 @@
-package me.windmc.enchantre;
+package io.github.windmc.enchantre;
 
-import me.windmc.enchantre.init.*;
+import io.github.windmc.enchantre.init.modBanner;
+import io.github.windmc.enchantre.init.modBlocks;
+import io.github.windmc.enchantre.init.modItems;
+import io.github.windmc.enchantre.init.modTags;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
