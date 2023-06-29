@@ -8,7 +8,6 @@ import net.minecraft.util.Identifier;
 
 public class modTags {
     public static final TagKey<BannerPattern> SAKURA_TAG = of("pattern_item/sakura");
-    public static final TagKey<BannerPattern> LOGO_TAG = of("pattern_item/logo");
     private static TagKey<BannerPattern> of(String id) {
         return TagKey.of(RegistryKeys.BANNER_PATTERN, new Identifier(enchantre.Modid,id));
     }
