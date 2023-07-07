@@ -9,10 +9,11 @@ import net.minecraft.client.render.RenderLayer;
 public class enchantreClient implements ClientModInitializer{
 
     public static void registerCutout(Block block) {
-        BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
     }
     @Override
     public void onInitializeClient() {
         registerCutout(modBlocks.CRYSTAL_TABLE);
+        registerCutout(modBlocks.AMETHYST_COPPER_TABLE_BLOCK);
     }
 }
