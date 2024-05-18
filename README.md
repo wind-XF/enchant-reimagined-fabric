@@ -1,9 +1,8 @@
 <div align="center"><img src="https://raw.githubusercontent.com/wind-XF/enchant-reimagined/main/media/logo.png"></div>
 
 # enchant-reimagined
-## ❗Notice:This mod is still working in progress.
+## ⚠️Canceled Project
 
-A mod that created an enchanting system that fully reimagined.
-Support Forge,Fabric&Quilt.
-
-Currently working on:add items,blocks,etc.
+- This mod has been canceled due to the imperfect envision of the main mechanics.
+- So my first(maybe) mod could just ended up here. The mod's development process was a fun experience though.
+- I'll put my energy into another mod, which adds various flying toys to Minecraft.
